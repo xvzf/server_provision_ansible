@@ -1,0 +1,6 @@
+---
+- hosts: lanarama.de
+  become: true
+
+  roles:
+    - traefik

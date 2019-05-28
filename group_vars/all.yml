@@ -1,0 +1,15 @@
+base_packages:
+  - vim
+  - htop
+  - tmux
+  - zsh
+
+users:
+  - name: username
+    keys: https://github.com/username.keys
+    password: $6$MyRGz9DB14FF.wDi$UjQ4M8fbm2k96BFQ0FochVMvo33bP1TYXzQyrXXB43jy1Ibo8.ki02hHbDhHWWh/8mML84KCoVFDqxnWM0bO/0
+
+traefik:
+  domain: awesomedomain.de
+  acme_email: test@email.de
+  docker_network: traefik_proxy
